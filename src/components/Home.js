@@ -1,10 +1,14 @@
 import React from "react";
 import '../style/Home.css';
+import logo from '../style/logo.png';
+import book from '../components/book.png';
 
 function Home() {
   return (
+    <div className="container-fluid col-md-8 ">
+    <div className="gap">
     <div className="Intro">
-      {/* <img src="" alt="" /> */}
+              <img src = {logo} alt="Avatar"  style={{width:"300", height:"300",padding:"30px"}}  />
       <p className="Data">
         "Under the Tree" is a story narrating initiative to relive childhood and
         Our lives by relating to stories by great writers of yesteryears.The
@@ -52,6 +56,9 @@ function Home() {
       <p className="Data">
         People can join the "Under the Tree" Whatsapp group/telegram by sending a message to the mobile number at 9789062915.
       </p>
+      <img src = {book} alt="Avatar"  style={{width:"300", height:"300",padding:"30px"}}  />
+    </div>
+    </div>
     </div>
   );
 }

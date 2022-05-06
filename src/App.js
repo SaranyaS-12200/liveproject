@@ -7,9 +7,9 @@ import Home from "./components/Home";
 function App() {
   return (
      <div className="App">
-    <Link to="/">Home</Link>
-    <Link to="/About">About</Link>
-    <Link to="/Project">Audio</Link>
+    <Link to="/">Home</Link><br/>
+    <Link to="/About">About</Link><br/>
+    <Link to="/Project">Audio</Link><br/>
     <Switch>
       <Route  exact path="/">
         <Home/>
