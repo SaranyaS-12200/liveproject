@@ -4,7 +4,7 @@ import  Image from "./Image.png"
 
 function About() {
   return (
-  <div className="container-fluid col-md-8 ">
+  <div className="container-fluid col-sm-10 col-md-10 col-lg-12 col-xl-12 " elevation={4}  style={{borderRadius:"0px",minHeight:"100vh"}}>
     <div className="pagelook">
     <div className="bg">
       <div className="title">
@@ -14,7 +14,7 @@ function About() {
         <h2 className="miniheading">CEO-iTransz Academy & Foundation</h2>
         </div>
       </div>
-      <div className="pagelook1">
+      <div className="pagelook1 container-fluid col-md-6">
       <div className="pagelook">
         <p className="Alignlook">
           Motivating, enthusiastic leaner driven to inspire students to pursue
